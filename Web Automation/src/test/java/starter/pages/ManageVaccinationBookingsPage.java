@@ -1,8 +1,9 @@
 package starter.pages;
 
+import net.thucydides.core.pages.PageObject;
 import org.openqa.selenium.By;
 
-public class ManageVaccinationBookingsPage {
+public class ManageVaccinationBookingsPage extends PageObject {
     private By emailField() {
         return By.id(":r0:");
     }
