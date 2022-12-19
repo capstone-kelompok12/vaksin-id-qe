@@ -1,0 +1,5 @@
+CucumberTestSuite.class
+starter\pages\VaccineNamesPage.class
+starter\pages\ManageVaccinationBookingsPage.class
+starter\stepdefinitions\ManageVaccinationBookingsSteps.class
+starter\stepdefinitions\VaccineNamesSteps.class
