@@ -20,7 +20,7 @@ public class ManageVaccinationBookingsPage extends PageObject {
         return By.xpath("//a[@href='/manage-booking']");
     }
     private By unconfirmedSession() {
-        return By.xpath("//div[@class='MuiCardContent-root css-1qw96cp']");
+        return By.xpath("//div[@class='MuiCardActions-root MuiCardActions-spacing css-1k3fh4f']");
     }
     private By checkButton() {
         return By.xpath("//button[@class='MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary MuiIconButton-sizeMedium css-11nfi0']");
@@ -40,10 +40,10 @@ public class ManageVaccinationBookingsPage extends PageObject {
         return By.xpath("//input[@aria-label='Select all rows']");
     }
     private By terimaSemuaButton() {
-        return By.xpath("//button[@fdprocessedid='my7ng']");
+        return By.xpath("//button[@class='MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium css-51t0sx']");
     }
     private By tolakSemuaButton() {
-        return By.xpath("//button[@fdprocessedid='hgjdta']");
+        return By.xpath("//button[@class='MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedDanger MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-root MuiButton-outlined MuiButton-outlinedDanger MuiButton-sizeMedium MuiButton-outlinedSizeMedium css-emnt2y']");
     }
     private By calendar() {
         return By.xpath("//button[@class='MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd MuiIconButton-sizeMedium css-slyssw']");

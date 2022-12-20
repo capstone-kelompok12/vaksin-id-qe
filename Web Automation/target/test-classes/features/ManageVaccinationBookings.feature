@@ -15,6 +15,7 @@ Feature: Manage vaccination bookings
     Given I am on landing page
     And I have logged in
     When I go to Book Vaksinasi page
+    And I select a session
     And I select all bookings
     And I click Terima Semua button
     Then the booking will be approved
@@ -31,6 +32,7 @@ Feature: Manage vaccination bookings
     Given I am on landing page
     And I have logged in
     When I go to Book Vaksinasi page
+    And I select a session
     And I select all bookings
     And I click Tolak Semua button
     Then the booking will be rejected
