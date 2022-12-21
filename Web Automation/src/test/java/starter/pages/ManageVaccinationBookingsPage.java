@@ -24,10 +24,9 @@ public class ManageVaccinationBookingsPage extends PageObject {
     }
     private By checkButton() {
         return By.xpath("//button[@class='MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary MuiIconButton-sizeMedium css-11nfi0']");
-        //button[@fdprocessedid='ckv46m']
     }
     private By xButton() {
-        return By.xpath("//button[@fdprocessedid='xn9icp']");
+        return By.xpath("//button[@class='MuiButtonBase-root MuiIconButton-root MuiIconButton-colorDanger MuiIconButton-sizeMedium css-ljswf0']");
     }
     private By approved() {
         return By.xpath("//div[@class='MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSoftSuccess MuiChip-filledSoftSuccess css-15bit62']");

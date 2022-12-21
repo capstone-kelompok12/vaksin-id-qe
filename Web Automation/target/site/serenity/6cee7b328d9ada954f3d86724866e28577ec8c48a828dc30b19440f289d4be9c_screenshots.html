@@ -151,7 +151,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="bi bi-chat-text"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 21-12-2022 13:41</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 21-12-2022 15:22</span>
     <br style="clear:left"/>
 </div>
 
@@ -188,9 +188,9 @@ So that I can approve and reject vaccination booking requests
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='bi bi-x-circle-fill failure-icon fa-2x' title='FAILURE'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='bi bi-check-circle-fill success-icon fa-2x' title='SUCCESS'></i></a></span>
                             <span class="test-case-title">
-                                <span class="failing-color">Approve all vaccination bookings
+                                <span class="success-color">Approve all vaccination bookings
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -207,57 +207,15 @@ So that I can approve and reject vaccination booking requests
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
-            <div class="screenshotFailure panel panel-danger">
-    <div style="display:block">
-        <div class="table">
-            <div class="row">
-                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
-                    <span class="error-message error-message-title">Element should be enabled exception: Expected enabled element was not enabled</span>
-                </div>
-                <div class="col-sm-2">
-                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall"
-                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="bi bi-eye"></i> More details</a>
-                </div>
-             </div>
-        </div>
-    <div>
-
-    <!-- Details Section -->
-    <div class="row stacktrace-details">
-      <div class="col">
-        <div class="collapse multi-collapse" id="stacktraceModal-overall">
-            <div class="card">
-                <div class="card-header">
-                    <h4>net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException </h4>
-                </div>
-                <div class="card-body">
-                    <div>
-                        <pre>starter.pages.ManageVaccinationBookingsPage.selectUnconfirmedSession(ManageVaccinationBookingsPage.java:68)<br />starter.stepdefinitions.ManageVaccinationBookingsSteps.iSelectASession(ManageVaccinationBookingsSteps.java:34)<br />io.cucumber.java.Invoker.doInvoke(Invoker.java:66)<br />io.cucumber.java.Invoker.invoke(Invoker.java:24)<br />io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)<br />io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)<br />io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)<br />io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)<br />io.cucumber.core.runner.TestStep.executeStep(TestStep.java:86)<br />io.cucumber.core.runner.TestStep.run(TestStep.java:57)<br />io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)<br />io.cucumber.core.runner.TestCase.run(TestCase.java:95)<br />io.cucumber.core.runner.Runner.runPickle(Runner.java:75)<br />io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:151)<br />io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)<br />io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:151)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)<br />io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:258)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:58)<br /></pre>
-                    </div>
-
-                    <h4>
-                        Caused by: org.openqa.selenium.TimeoutException
-                    </h4>
-                    <div>
-                            <pre>Expected condition failed: waiting for By.xpath: //div[@class='MuiCardActions-root MuiCardActions-spacing css-1k3fh4f'] to be enabled (tried for 5 second(s) with 100 milliseconds interval)</pre>
-                        <pre>starter.pages.ManageVaccinationBookingsPage.selectUnconfirmedSession(ManageVaccinationBookingsPage.java :68)<br />starter.stepdefinitions.ManageVaccinationBookingsSteps.iSelectASession(ManageVaccinationBookingsSteps.java :34)<br />io.cucumber.java.Invoker.doInvoke(Invoker.java :66)<br />io.cucumber.java.Invoker.invoke(Invoker.java :24)<br />io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java :47)<br />io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java :29)<br />io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java :66)<br />io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java :63)<br />io.cucumber.core.runner.TestStep.executeStep(TestStep.java :86)<br />io.cucumber.core.runner.TestStep.run(TestStep.java :57)<br />io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java :51)<br />io.cucumber.core.runner.TestCase.run(TestCase.java :95)<br />io.cucumber.core.runner.Runner.runPickle(Runner.java :75)<br />io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java :151)<br />io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java :23)<br />io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java :151)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java :144)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java :28)<br />io.cucumber.junit.FeatureRunner.run(FeatureRunner.java :137)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java :258)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java :58)<br /></pre>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-                <div class="panel-body">
-                    <a href="pagesource11927749263883984309.html" target="_blank" class="btn btn-info">HTML Source</a>
-                </div>
-            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
                 <img src="ff3b83dd42f508d91c0c8488aed412149de34b436c7528a8caa8428592644731.png" title=" Given I am on landing page" width="1295"/>
-                <img src="85f89946674e2d0d098693f0de58e0ced99c9c446ba636a19cc6ddbe29c833ff.png" title=" And I have logged in" width="1295"/>
-                <img src="a8d720a763ad4b2032097b6dd552225f321e6d38537e5d34aeb55869be842e07.png" title=" When I go to Book Vaksinasi page" width="1295"/>
-                <img src="a8d720a763ad4b2032097b6dd552225f321e6d38537e5d34aeb55869be842e07.png" title=" And I select a session" width="1295"/>
-                <img src="18f583b60854d944cf88979a3965faec9249006e02a01037a0b9da72a3598c4f.png" title=" Select unconfirmed session" width="1295"/>
-                <img src="18f583b60854d944cf88979a3965faec9249006e02a01037a0b9da72a3598c4f.png" title=" Select unconfirmed session (completed): <span class='failing-color'>FAILURE</span>" width="1295"/>
+                <img src="ef1c50c87870a12e2b273c32e59e86c036316144f663d48196dc4d82e43ee0dd.png" title=" And I have logged in" width="1295"/>
+                <img src="dda7b7688205770a5225306c713da97c9f3d291fa30eb8fc6f9e21e4c8962072.png" title=" When I go to Book Vaksinasi page" width="1295"/>
+                <img src="a8c910992590609478408a5450b44243e57a411d0804ff6f30cff7822f9257c5.png" title=" And I select a session" width="1295"/>
+                <img src="9f9b77675d5632f39152cd0f7a5172c6c46b402d65c2a367c584bc572df06007.png" title=" And I select all bookings" width="1295"/>
+                <img src="fa43e5af322a5144497dc9c5fb9df209dbf665ecda2bdb1b3f0a519f2b12a7ac.png" title=" And I click Terima Semua button" width="1295"/>
+                <img src="945eba5ae9a7b202ab5c4895027ea9dd68815e06b2fe51edb8fd37cee82978d3.png" title=" Then the booking will be approved: <span class='success-color'>SUCCESS</span>" width="1295"/>
             </div>
         </div>
 

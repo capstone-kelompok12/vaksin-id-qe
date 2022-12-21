@@ -14,6 +14,6 @@ public class VaccineNamesPage extends PageObject {
         $(daftarVaksinPage()).click();
     }
     public void vaccineNamesDisplayed() {
-        $(daftarVaksinPage()).isDisplayed();
+        $(vaccineNames()).isDisplayed();
     }
 }

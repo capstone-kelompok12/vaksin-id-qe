@@ -1,60 +1,18 @@
 -------------------------------------------------------------------------------
 Test set: CucumberTestSuite
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 83.257 s <<< FAILURE! - in CucumberTestSuite
-Manage vaccination bookings.Approve a vaccination booking  Time elapsed: 28.733 s  <<< ERROR!
+Tests run: 5, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 50.232 s <<< FAILURE! - in CucumberTestSuite
+Manage vaccination bookings.Reject a vaccination booking  Time elapsed: 12.141 s  <<< ERROR!
 net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException: Expected enabled element was not enabled
-Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for By.xpath: //div[@class='MuiCardActions-root MuiCardActions-spacing css-1k3fh4f'] to be enabled (tried for 5 second(s) with 100 milliseconds interval)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for By.xpath: //button[@fdprocessedid='xn9icp'] to be enabled (tried for 5 second(s) with 100 milliseconds interval)
 Caused by: org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='MuiCardActions-root MuiCardActions-spacing css-1k3fh4f']"}
+no such element: Unable to locate element: {"method":"xpath","selector":"//button[@fdprocessedid='xn9icp']"}
   (Session info: chrome=108.0.5359.125)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.1.2', revision: '9a5a329c5a'
 System info: host: 'LAPTOP-CFD9EV6G', ip: '192.168.100.29', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [73ab1fd017324c185a074344afd2d1b6, findElement {using=xpath, value=//div[@class='MuiCardActions-root MuiCardActions-spacing css-1k3fh4f']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\ASUSTUF\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:60816}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60816/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 73ab1fd017324c185a074344afd2d1b6
-
-Manage vaccination bookings.Approve all vaccination bookings  Time elapsed: 13.68 s  <<< ERROR!
-net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException: Expected enabled element was not enabled
-Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for By.xpath: //div[@class='MuiCardActions-root MuiCardActions-spacing css-1k3fh4f'] to be enabled (tried for 5 second(s) with 100 milliseconds interval)
-Caused by: org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='MuiCardActions-root MuiCardActions-spacing css-1k3fh4f']"}
-  (Session info: chrome=108.0.5359.125)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.1.2', revision: '9a5a329c5a'
-System info: host: 'LAPTOP-CFD9EV6G', ip: '192.168.100.29', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [65321554d74459f143b5def69466c138, findElement {using=xpath, value=//div[@class='MuiCardActions-root MuiCardActions-spacing css-1k3fh4f']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\ASUSTUF\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:60854}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60854/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 65321554d74459f143b5def69466c138
-
-Manage vaccination bookings.Reject a vaccination booking  Time elapsed: 13.802 s  <<< ERROR!
-net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException: Expected enabled element was not enabled
-Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for By.xpath: //div[@class='MuiCardActions-root MuiCardActions-spacing css-1k3fh4f'] to be enabled (tried for 5 second(s) with 100 milliseconds interval)
-Caused by: org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='MuiCardActions-root MuiCardActions-spacing css-1k3fh4f']"}
-  (Session info: chrome=108.0.5359.125)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.1.2', revision: '9a5a329c5a'
-System info: host: 'LAPTOP-CFD9EV6G', ip: '192.168.100.29', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0a03005dd44338bdb455bada3e0572db, findElement {using=xpath, value=//div[@class='MuiCardActions-root MuiCardActions-spacing css-1k3fh4f']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\ASUSTUF\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:60887}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60887/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 0a03005dd44338bdb455bada3e0572db
-
-Manage vaccination bookings.Reject all vaccination bookings  Time elapsed: 13.169 s  <<< ERROR!
-net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException: Expected enabled element was not enabled
-Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for By.xpath: //div[@class='MuiCardActions-root MuiCardActions-spacing css-1k3fh4f'] to be enabled (tried for 5 second(s) with 100 milliseconds interval)
-Caused by: org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='MuiCardActions-root MuiCardActions-spacing css-1k3fh4f']"}
-  (Session info: chrome=108.0.5359.125)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.1.2', revision: '9a5a329c5a'
-System info: host: 'LAPTOP-CFD9EV6G', ip: '192.168.100.29', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [61151846b4a3c3d40eee7979fc3d9c3e, findElement {using=xpath, value=//div[@class='MuiCardActions-root MuiCardActions-spacing css-1k3fh4f']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\ASUSTUF\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:60918}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60918/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 61151846b4a3c3d40eee7979fc3d9c3e
+Command: [a4c9eedae1fe5149e0759be7b1a05b84, findElement {using=xpath, value=//button[@fdprocessedid='xn9icp']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\ASUSTUF\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62315}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62315/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a4c9eedae1fe5149e0759be7b1a05b84
 
