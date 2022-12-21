@@ -19,8 +19,8 @@ public class ManageVaccinationBookingsSteps {
     @And("I have logged in")
     public void iHaveLoggedIn() {
         manageVaccinationBookingsPage.goToLoginPage();
-        manageVaccinationBookingsPage.inputEmail("admininfo@citraarafiqhospital.com");
-        manageVaccinationBookingsPage.inputPassword("rscitraarafiq123");
+        manageVaccinationBookingsPage.inputEmail("adminpkumuhdelanggu@gmail.com");
+        manageVaccinationBookingsPage.inputPassword("pkumuhdelanggu123");
         manageVaccinationBookingsPage.login();
     }
 
