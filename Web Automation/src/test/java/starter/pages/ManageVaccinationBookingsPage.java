@@ -45,60 +45,7 @@ public class ManageVaccinationBookingsPage extends PageObject {
     private By tolakSemuaButton() {
         return By.xpath("//button[@class='MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedDanger MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-root MuiButton-outlined MuiButton-outlinedDanger MuiButton-sizeMedium MuiButton-outlinedSizeMedium css-emnt2y']");
     }
-    private By calendar() {
-        return By.xpath("//button[@class='MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd MuiIconButton-sizeMedium css-slyssw']");
-    }
-    private By availableDate() {
-        return By.xpath("//button[@fdprocessedid='8glucq']");
-    }
-    private By unavailableDate() {
-        return By.xpath("//button[@fdprocessedid='9smnk8']");
-    }
-    private By availableDateSession() {
-        return By.xpath("//h6");
-    }
-    private By unavailableDateSession() {
-        return By.xpath("//img[@src='/static/media/notfound.aa0ca37c75187772b73a.png']");
-    }
-    private By vaccineFilter() {
-        return By.xpath("//div[@fdprocessedid='p0urda']");
-    }
-    private By vaccine() {
-        return By.xpath("//li[@data-value='AstraZeneca']");
-    }
-    private By selectedVaccine() {
-        return By.xpath("//h6");
-    }
-    private By statusFilter() {
-        return By.xpath("//div[@fdprocessedid='xb3zh9']");
-    }
-    private By status() {
-        return By.xpath("//li[@data-value='Berlangsung']");
-    }
-    private By selectedStatus() {
-        return By.xpath("//span[@class='MuiChip-label MuiChip-labelMedium css-14vsv3w']");
-    }
-    private By filterButton() {
-        return By.id("more-filter-button");
-    }
-    //private By timeFilter() {
-        //return By.id("button-filter-waktu");
-    //}
-    //private By time() {
-      //  return By.xpath("//li[@class='MuiButtonBase-root MuiMenuItem-root MuiMenuItem-gutters Mui-selected MuiMenuItem-root MuiMenuItem-gutters Mui-selected css-1ijhkwz']");
-    //}
-    //private By selectedTime() {
-        //return
-    //}
-    //private By doseFilter() {
-      //  return By.id("button-filter-dosis");
-    //}
-    //private By selectDose() {
-      //  return
-    //}
-    //private By selectedDose() {
-      //  return
-    //}
+
     public void openUrl() {
         openAt("/");
     }
@@ -140,39 +87,6 @@ public class ManageVaccinationBookingsPage extends PageObject {
     }
     public void rejectAllBookingRequests() {
         $(tolakSemuaButton()).click();
-    }
-    public void sortByDate() {
-        $(calendar()).click();
-    }
-    public void selectAvailableDate() {
-        $(availableDate()).click();
-    }
-    public void availableDateSessionDisplayed() {
-        $(availableDateSession()).isDisplayed();
-    }
-    public void selectUnavailableDate() {
-        $(unavailableDate()).click();
-    }
-    public void noBookingDisplayed() {
-        $(unavailableDateSession()).isDisplayed();
-    }
-    public void sortByVaccine() {
-        $(vaccineFilter()).click();
-    }
-    public void selectVaccine() {
-        $(vaccine()).click();
-    }
-    public void sortedByVaccine() {
-        $(selectedVaccine()).isDisplayed();
-    }
-    public void sortByStatus() {
-        $(statusFilter()).click();
-    }
-    public void selectStatus() {
-        $(status()).click();
-    }
-    public void sortedByStatus() {
-        $(selectedStatus()).isDisplayed();
     }
 }
 
