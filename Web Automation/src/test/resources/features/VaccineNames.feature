@@ -1,4 +1,3 @@
-@VaccineNames
 Feature: Vaccine names
   As an admin
   I want to access vaccine names
