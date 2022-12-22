@@ -1,4 +1,5 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Manage vaccination bookings","Approve all vaccination bookings","SUCCESS","2022-12-22T09:47:24.5327429+07:00[Asia/Bangkok]","0.0","8.41"
-"Manage vaccination bookings","Reject a vaccination booking","SUCCESS","2022-12-22T09:47:33.1843826+07:00[Asia/Bangkok]","0.0","7.69"
-"Manage vaccination bookings","Reject all vaccination bookings","SUCCESS","2022-12-22T09:47:41.1232641+07:00[Asia/Bangkok]","0.0","8.57"
+"Manage vaccination bookings","Approve all vaccination bookings","SUCCESS","2022-12-22T10:52:29.5411544+07:00[Asia/Bangkok]","0.0","7.78"
+"Manage vaccination bookings","Reject a vaccination booking","SUCCESS","2022-12-22T10:52:37.5272287+07:00[Asia/Bangkok]","0.0","7.36"
+"Manage vaccination bookings","Reject all vaccination bookings","SUCCESS","2022-12-22T10:52:45.0921794+07:00[Asia/Bangkok]","0.0","8.2"
+"Vaccine names","View vaccine names in Indonesia","SUCCESS","2022-12-22T10:52:53.5349749+07:00[Asia/Bangkok]","0.0","6.85"
