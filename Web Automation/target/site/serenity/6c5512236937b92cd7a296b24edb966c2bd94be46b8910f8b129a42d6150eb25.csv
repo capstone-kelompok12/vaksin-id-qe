@@ -1,3 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Manage vaccination bookings","Approve all vaccination bookings","SUCCESS","2022-12-21T15:22:24.7361382+07:00[Asia/Bangkok]","0.0","6.14"
-"Manage vaccination bookings","Reject all vaccination bookings","SUCCESS","2022-12-21T15:22:43.2437204+07:00[Asia/Bangkok]","0.0","6.94"
+"Manage vaccination bookings","Approve all vaccination bookings","SUCCESS","2022-12-22T09:47:24.5327429+07:00[Asia/Bangkok]","0.0","8.41"
+"Manage vaccination bookings","Reject a vaccination booking","SUCCESS","2022-12-22T09:47:33.1843826+07:00[Asia/Bangkok]","0.0","7.69"
+"Manage vaccination bookings","Reject all vaccination bookings","SUCCESS","2022-12-22T09:47:41.1232641+07:00[Asia/Bangkok]","0.0","8.57"
